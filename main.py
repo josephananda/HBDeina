@@ -1,6 +1,8 @@
 from turtle import *
 import colorsys
 import streamlit as st
+import multiprocessing
+#import tkinter
 
 
 def draw_flower():
@@ -22,12 +24,15 @@ def draw_flower():
 
 
 def main():
-    st.title("Happy Birthday Deina")
+    titles = st.title("Happy Birthday Deina")
     st.write("Wish you all the best!")
 
-    if st.button("Click here for your gift!"):
+    clicked = st.button("Click here for your gift!")
+
+    if clicked:
         st.write("Generating Magic Flower")
-        draw_flower()
+        t = multiprocessing.Process(target=draw_flower(), args=(titles, 500, 500, 200,))
+        t.start()
 
 
 if __name__ == "__main__":

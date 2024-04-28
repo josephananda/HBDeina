@@ -24,6 +24,7 @@ def main():
                 ni sesuai rikuwes km ktanya mau dibikinin yg ngoding2 tp yg ngoding bukan ak tp jo WKWKKWKW (\+ km minta kdo dr jo, yak btul ni kodingan adlh kdonya, kta jo susah tau bikinnya)\n
         '''
         st.markdown(multi)
+
         multi_2 = '''gk tau mau wish apa lg selain wish you were here WKWKWKWK.
                 sehat sehat tulang punggung keluarga.
                 lop,

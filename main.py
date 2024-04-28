@@ -20,18 +20,22 @@ def main():
         #t.start()
         st.video("flower_animation.mp4", format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False)
 
-        multi = '''HB Deina
-                ni sesuai rikuwes km ktanya mau dibikinin yg ngoding2 tp yg ngoding bukan ak tp jo WKWKKWKW (\+ km minta kdo dr jo, yak btul ni kodingan adlh kdonya, kta jo susah tau bikinnya)\n
-        '''
-        st.markdown(multi)
-
-        multi_2 = '''gk tau mau wish apa lg selain wish you were here WKWKWKWK.
-                sehat sehat tulang punggung keluarga.
-                lop,
-                n & j
-        '''
-        st.markdown(multi_2)
-
+        line_1 = '''HB Deina'''
+        line_2 = '''ni sesuai rikuwes km ktanya mau dibikinin yg ngoding2 tp yg ngoding bukan ak tp jo WKWKKWKW (\+ km minta kdo dr jo, yak btul ni kodingan adlh kdonya, kta jo susah tau bikinnya)'''
+        line_3 = ''''''
+        line_4 = '''gk tau mau wish apa lg selain wish you were here WKWKWKWK.'''
+        line_5 = '''sehat sehat tulang punggung keluarga.'''
+        line_6 = ''''''
+        line_7 = '''lop,'''
+        line_8 = '''N & J'''
+        st.markdown(line_1)
+        st.markdown(line_2)
+        st.markdown(line_3)
+        st.markdown(line_4)
+        st.markdown(line_5)
+        st.markdown(line_6)
+        st.markdown(line_7)
+        st.markdown(line_8)
 
 
 if __name__ == "__main__":

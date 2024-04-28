@@ -15,7 +15,7 @@ def main():
     clicked = st.button("Click here for your gift!")
 
     if clicked:
-        st.write("Here's your request!")
+        #st.write("Here's your request!")
         #t = multiprocessing.Process(target=draw_flower(), args=(titles, 500, 500, 200,))
         #t.start()
         st.video("flower_animation.mp4", format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False)

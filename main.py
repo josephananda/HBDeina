@@ -1,13 +1,13 @@
-from turtle import *
-import colorsys
+#from turtle import *
+#import colorsys
 import streamlit as st
 #import multiprocessing
 #import tkinter
-import imageio
-from PIL import Image
-import numpy as np
+#import imageio
+#from PIL import Image
+#import numpy as np
 
-
+'''
 def draw_flower():
     speed(0)
     bgcolor('black')
@@ -41,6 +41,7 @@ def get_frame_as_np_array():
     img = Image.open("temp.eps")
     img_np = np.array(img)
     return img_np
+'''
 
 
 def main():

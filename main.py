@@ -2,7 +2,7 @@ from turtle import *
 import colorsys
 import streamlit as st
 import multiprocessing
-#import tkinter
+import tkinter
 
 
 def draw_flower():

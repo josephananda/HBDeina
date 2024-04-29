@@ -18,7 +18,7 @@ def main():
         #st.write("Here's your request!")
         #t = multiprocessing.Process(target=draw_flower(), args=(titles, 500, 500, 200,))
         #t.start()
-        st.video("flower_animation.mp4", format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False)
+        st.video("flower_animation_letters.mp4", format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False)
 
         line_1 = '''HB Deina'''
         line_2 = '''ni sesuai rikuwes km ktanya mau dibikinin yg ngoding2 tp yg ngoding bukan ak tp jo WKWKKWKW (\+ km minta kdo dr jo, yak btul ni kodingan adlh kdonya, kta jo susah tau bikinnya)'''
